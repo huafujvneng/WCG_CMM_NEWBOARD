@@ -1,0 +1,5 @@
+RT-Thread/MB9BF618S for XuJi, version 1.0.2
+
+In this release, which includes:
+- the real-time interrupt patch;
+- lwIP updated to 1.4.0 and includes RT-Thread memory patched.

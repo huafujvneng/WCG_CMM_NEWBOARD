@@ -1,0 +1,17 @@
+.\build\inet.o: components\lwip\src\core\ipv4\inet.c
+.\build\inet.o: components\lwip\src\include\lwip/opt.h
+.\build\inet.o: components\lwip\src\lwipopts.h
+.\build\inet.o: .\rtconfig.h
+.\build\inet.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\build\inet.o: components\lwip\src\include\lwip/debug.h
+.\build\inet.o: components\lwip\src\include\lwip/arch.h
+.\build\inet.o: components\lwip\src\arch\include\arch/cc.h
+.\build\inet.o: rt-thread\include\rthw.h
+.\build\inet.o: rt-thread\include\rtthread.h
+.\build\inet.o: rt-thread\include\rtdef.h
+.\build\inet.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\inet.o: rt-thread\include\rtdebug.h
+.\build\inet.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\build\inet.o: components\lwip\src\include\ipv4\lwip/inet.h
+.\build\inet.o: components\lwip\src\include\lwip/def.h
+.\build\inet.o: components\lwip\src\include\ipv4\lwip/ip_addr.h

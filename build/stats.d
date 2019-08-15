@@ -1,0 +1,14 @@
+.\build\stats.o: components\lwip\src\core\stats.c
+.\build\stats.o: components\lwip\src\include\lwip/opt.h
+.\build\stats.o: components\lwip\src\lwipopts.h
+.\build\stats.o: .\rtconfig.h
+.\build\stats.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\build\stats.o: components\lwip\src\include\lwip/debug.h
+.\build\stats.o: components\lwip\src\include\lwip/arch.h
+.\build\stats.o: components\lwip\src\arch\include\arch/cc.h
+.\build\stats.o: rt-thread\include\rthw.h
+.\build\stats.o: rt-thread\include\rtthread.h
+.\build\stats.o: rt-thread\include\rtdef.h
+.\build\stats.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\stats.o: rt-thread\include\rtdebug.h
+.\build\stats.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

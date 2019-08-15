@@ -1,0 +1,14 @@
+.\build\dhcp.o: components\lwip\src\core\dhcp.c
+.\build\dhcp.o: components\lwip\src\include\lwip/opt.h
+.\build\dhcp.o: components\lwip\src\lwipopts.h
+.\build\dhcp.o: .\rtconfig.h
+.\build\dhcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\build\dhcp.o: components\lwip\src\include\lwip/debug.h
+.\build\dhcp.o: components\lwip\src\include\lwip/arch.h
+.\build\dhcp.o: components\lwip\src\arch\include\arch/cc.h
+.\build\dhcp.o: rt-thread\include\rthw.h
+.\build\dhcp.o: rt-thread\include\rtthread.h
+.\build\dhcp.o: rt-thread\include\rtdef.h
+.\build\dhcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\dhcp.o: rt-thread\include\rtdebug.h
+.\build\dhcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

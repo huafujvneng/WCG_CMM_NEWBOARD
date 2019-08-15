@@ -1,0 +1,14 @@
+.\build\autoip.o: components\lwip\src\core\ipv4\autoip.c
+.\build\autoip.o: components\lwip\src\include\lwip/opt.h
+.\build\autoip.o: components\lwip\src\lwipopts.h
+.\build\autoip.o: .\rtconfig.h
+.\build\autoip.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\build\autoip.o: components\lwip\src\include\lwip/debug.h
+.\build\autoip.o: components\lwip\src\include\lwip/arch.h
+.\build\autoip.o: components\lwip\src\arch\include\arch/cc.h
+.\build\autoip.o: rt-thread\include\rthw.h
+.\build\autoip.o: rt-thread\include\rtthread.h
+.\build\autoip.o: rt-thread\include\rtdef.h
+.\build\autoip.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\autoip.o: rt-thread\include\rtdebug.h
+.\build\autoip.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

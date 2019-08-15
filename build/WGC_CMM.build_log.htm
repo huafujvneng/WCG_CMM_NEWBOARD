@@ -1,0 +1,581 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: wss wushu, microsoft, LIC=8VRDY-IZ8DF-MLECI-TWUZ2-P81HQ-NRF06
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.26.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      Segger\JL2CM3.dll V2.99.31.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+F:\WGC_CMM_NEWBOARD - 20190802\project.uvprojx
+Project File Date:  08/05/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'rtthread'
+compiling rtdboperate.c...
+applications\rtdboperate.c(166): warning:  #177-D: variable "k"  was declared but never referenced
+  	uint8_t  i, j, k, temp_data, temp_inf, temp_addr;
+applications\rtdboperate.c(167): warning:  #177-D: variable "m"  was declared but never referenced
+  	uint8_t m;
+applications\rtdboperate.c(379): warning:  #1-D: last line of file ends without a newline
+  /*end*/
+applications\rtdboperate.c: 3 warnings, 0 errors
+compiling e2timewdg.c...
+compiling modbus600.c...
+applications\modbus600.c(191): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus600.c(205): warning:  #111-D: statement is unreachable
+  						  break;				
+applications\modbus600.c(233): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus600.c(247): warning:  #111-D: statement is unreachable
+  					    break;
+applications\modbus600.c(295): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus600.c(309): warning:  #111-D: statement is unreachable
+  						  break;				
+applications\modbus600.c(337): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus600.c(351): warning:  #111-D: statement is unreachable
+  					    break;
+applications\modbus600.c(398): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus600.c(412): warning:  #111-D: statement is unreachable
+  						  break;				
+applications\modbus600.c(440): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus600.c(454): warning:  #111-D: statement is unreachable
+  					    break;
+applications\modbus600.c(502): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus600.c(516): warning:  #111-D: statement is unreachable
+  						  break;				
+applications\modbus600.c(544): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus600.c(558): warning:  #111-D: statement is unreachable
+  					    break;
+applications\modbus600.c(606): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus600.c(620): warning:  #111-D: statement is unreachable
+  						  break;				
+applications\modbus600.c(648): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus600.c(662): warning:  #111-D: statement is unreachable
+  					    break;
+applications\modbus600.c(709): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus600.c(723): warning:  #111-D: statement is unreachable
+  						  break;				
+applications\modbus600.c(751): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus600.c(765): warning:  #111-D: statement is unreachable
+  					    break;
+applications\modbus600.c(813): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus600.c(827): warning:  #111-D: statement is unreachable
+  						  break;				
+applications\modbus600.c(855): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus600.c(869): warning:  #111-D: statement is unreachable
+  					    break;
+applications\modbus600.c(882): warning:  #940-D: missing return statement at end of non-void function "trans_yk_cmd_modbus" 
+  }
+applications\modbus600.c(122): warning:  #177-D: variable "deviceaddr"  was declared but never referenced
+  	  uint8_t deviceaddr;
+applications\modbus600.c(123): warning:  #177-D: variable "num"  was declared but never referenced
+  	  uint16_t num;
+applications\modbus600.c(1803): warning:  #1-D: last line of file ends without a newline
+  }
+applications\modbus600.c: 32 warnings, 0 errors
+compiling uart.c...
+applications\uart.c(1851): warning:  #177-D: function "uart_tx__thread_entry"  was declared but never referenced
+  static void uart_tx__thread_entry(void* parameter)
+applications\uart.c: 1 warning, 0 errors
+compiling crc.c...
+compiling eth_callee.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+applications\eth_callee.c(115): warning:  #177-D: variable "okflg"  was declared but never referenced
+  	  uint8_t  i,j,okflg = 0;
+applications\eth_callee.c(266): warning:  #111-D: statement is unreachable
+              break;					
+applications\eth_callee.c(272): warning:  #940-D: missing return statement at end of non-void function "OP_RemoteToRtdb" 
+  }
+applications\eth_callee.c(160): warning:  #177-D: variable "INFindex"  was declared but never referenced
+      uint8_t INFindex;
+applications\eth_callee.c(161): warning:  #177-D: variable "temp"  was declared but never referenced
+  	  uint16_t temp;
+applications\eth_callee.c(447): warning:  #940-D: missing return statement at end of non-void function "OP_GetDIState" 
+  }
+applications\eth_callee.c(338): warning:  #177-D: variable "m"  was declared but never referenced
+  	  int8_t m;
+applications\eth_callee.c(629): warning:  #940-D: missing return statement at end of non-void function "OP_GetSetPointValue" 
+  }
+applications\eth_callee.c(1073): warning:  #111-D: statement is unreachable
+        break;				
+applications\eth_callee.c: 10 warnings, 0 errors
+compiling core_cm3.c...
+compiling base_task.c...
+applications\base_task.c(435): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i;
+applications\base_task.c(589): warning:  #177-D: variable "ptr"  was declared but never referenced
+  	uint8_t* ptr;
+applications\base_task.c(590): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t  i;
+applications\base_task.c(508): warning:  #177-D: function "prepare_work_thread_entry"  was declared but never referenced
+  static void prepare_work_thread_entry(void* parameter)
+applications\base_task.c: 4 warnings, 0 errors
+compiling startup.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+applications\startup.c: 1 warning, 0 errors
+assembling startup_mb9bf61x.S...
+compiling api_lib.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\api\api_lib.c: 1 warning, 0 errors
+compiling application.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+applications\application.c: 1 warning, 0 errors
+compiling api_msg.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\api\api_msg.c: 1 warning, 0 errors
+compiling tcp_debug.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+applications\tcp_debug.c(509): warning:  #940-D: missing return statement at end of non-void function "creatlinktoask" 
+  }
+applications\tcp_debug.c(568): warning:  #177-D: variable "temp"  was declared but never referenced
+  	uint8_t temp, i, j;
+applications\tcp_debug.c(594): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i, m;
+applications\tcp_debug.c(804): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  					GetCfgFromCharBuf(&poutput, &pbuf[10], keypoint);
+applications\tcp_debug.c(898): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  						transaddframheader(eth_status.eth_recv_buf, CMPROTOCOL_COMMAND_RXFLG, CMPROTOCOL_COMMAND_UPFLG, ethrxflg);
+applications\tcp_debug.c(910): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  						transaddframheader(eth_status.eth_trans_buf, CMPROTOCOL_COMMAND_TXFLG, CMPROTOCOL_COMMAND_UPFLG, ethtxflg);
+applications\tcp_debug.c(649): warning:  #177-D: variable "mac_addr"  was declared but never referenced
+  	uint8_t mac_addr[6];
+applications\tcp_debug.c(662): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint32_t		i;
+applications\tcp_debug.c(664): warning:  #177-D: variable "ucdata"  was declared but never referenced
+  	uint8_t			ucdata;
+applications\tcp_debug.c(668): warning:  #177-D: variable "readethflg"  was declared but never referenced
+  	uint8_t    readethflg, readuarttransflg = 1, readuartrecvflg = 1;
+applications\tcp_debug.c(668): warning:  #177-D: variable "readuarttransflg"  was declared but never referenced
+  	uint8_t    readethflg, readuarttransflg = 1, readuartrecvflg = 1;
+applications\tcp_debug.c(668): warning:  #177-D: variable "readuartrecvflg"  was declared but never referenced
+  	uint8_t    readethflg, readuarttransflg = 1, readuartrecvflg = 1;
+applications\tcp_debug.c(670): warning:  #177-D: variable "recvflg"  was declared but never referenced
+  	uint8_t    recvflg = 0;
+applications\tcp_debug.c(506): warning:  #177-D: function "creatlinktoask"  was declared but never referenced
+  static uint8_t creatlinktoask()
+applications\tcp_debug.c: 15 warnings, 0 errors
+compiling err.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\api\err.c: 1 warning, 0 errors
+compiling eth_server103.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+applications\eth_server103.c(2774): warning:  #111-D: statement is unreachable
+          break;
+applications\eth_server103.c(2780): warning:  #111-D: statement is unreachable
+  		    break;
+applications\eth_server103.c(2880): warning:  #111-D: statement is unreachable
+  	rt_kprintf("pSendMsg:  %x.%x.%x.%x.%x\n",pSendMsg->m_msgdata[0],pSendMsg->m_msgdata[1],pSendMsg->m_msgdata[2],pSendMsg->m_msgdata[3],pSendMsg->m_msgdata[4]);
+applications\eth_server103.c(2733): warning:  #177-D: variable "nIndex"  was declared but never referenced
+  	int32_t		nIndex;
+applications\eth_server103.c(4242): warning:  #167-D: argument of type "void (*)(void)" is incompatible with parameter of type "void (*)(void *)"
+  	tid = rt_thread_create("RtdbProce", RtdbProcess, RT_NULL,
+applications\eth_server103.c(1296): warning:  #177-D: function "ProcessAutoGeneral_103"  was declared but never referenced
+  static int32_t ProcessAutoGeneral_103(PARAMS *pParams)
+applications\eth_server103.c(1355): warning:  #177-D: function "ProcessAutoGeneral_104"  was declared but never referenced
+  static int32_t ProcessAutoGeneral_104(PARAMS *pParams)
+applications\eth_server103.c: 8 warnings, 0 errors
+compiling netbuf.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\api\netbuf.c: 1 warning, 0 errors
+compiling netdb.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\api\netdb.c: 1 warning, 0 errors
+compiling def.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\def.c: 1 warning, 0 errors
+compiling netifapi.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\api\netifapi.c: 1 warning, 0 errors
+compiling sys_arch.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\arch\sys_arch.c: 1 warning, 0 errors
+compiling tcpip.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\api\tcpip.c: 1 warning, 0 errors
+compiling sockets.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\api\sockets.c: 1 warning, 0 errors
+compiling dhcp.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\dhcp.c: 1 warning, 0 errors
+compiling dns.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\dns.c: 1 warning, 0 errors
+compiling init.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\init.c: 1 warning, 0 errors
+compiling memp.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\memp.c: 1 warning, 0 errors
+compiling netif.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\netif.c: 1 warning, 0 errors
+compiling pbuf.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\pbuf.c: 1 warning, 0 errors
+compiling raw.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\raw.c: 1 warning, 0 errors
+compiling stats.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\stats.c: 1 warning, 0 errors
+compiling sys.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\sys.c: 1 warning, 0 errors
+compiling tcp.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\tcp.c: 1 warning, 0 errors
+compiling cmcfgfunc.c...
+applications\cmcfgfunc.c(69): warning:  #550-D: variable "savetype"  was set but never used
+    char        savetype = 0;//define(1) channel(2) device(3)  upstream(4)
+applications\cmcfgfunc.c: 1 warning, 0 errors
+compiling timers.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\timers.c: 1 warning, 0 errors
+compiling udp.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\udp.c: 1 warning, 0 errors
+compiling tcp_out.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\tcp_out.c: 1 warning, 0 errors
+compiling tcp_in.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\tcp_in.c: 1 warning, 0 errors
+compiling confresolve.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+applications\confresolve.c(20): warning:  #177-D: variable "tempdata"  was declared but never referenced
+  	uint8_t tempdata;
+applications\confresolve.c(25): warning:  #550-D: variable "key_point"  was set but never used
+  char *key_point;
+applications\confresolve.c(26): warning:  #177-D: variable "poutput"  was declared but never referenced
+  	char *poutput;
+applications\confresolve.c: 4 warnings, 0 errors
+compiling autoip.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\ipv4\autoip.c: 1 warning, 0 errors
+compiling icmp.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\ipv4\icmp.c: 1 warning, 0 errors
+compiling igmp.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\ipv4\igmp.c: 1 warning, 0 errors
+compiling inet_chksum.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\ipv4\inet_chksum.c: 1 warning, 0 errors
+compiling inet.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\ipv4\inet.c: 1 warning, 0 errors
+compiling ip_addr.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\ipv4\ip_addr.c: 1 warning, 0 errors
+compiling ip_frag.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\ipv4\ip_frag.c: 1 warning, 0 errors
+compiling ip.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\core\ipv4\ip.c(820): warning:  #550-D: variable "payload"  was set but never used
+    u8_t *payload;
+components\lwip\src\core\ipv4\ip.c: 2 warnings, 0 errors
+compiling etharp.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\netif\etharp.c: 1 warning, 0 errors
+assembling context_rvds.S...
+compiling slipif.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\netif\slipif.c: 1 warning, 0 errors
+compiling cpuport.c...
+compiling ethernetif.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+components\lwip\src\netif\ethernetif.c: 1 warning, 0 errors
+compiling system_mb9bf61x.c...
+compiling nouse_protocol.c...
+compiling modbus611.c...
+applications\modbus611.c(132): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus611.c(146): warning:  #111-D: statement is unreachable
+  						  break;				
+applications\modbus611.c(174): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus611.c(188): warning:  #111-D: statement is unreachable
+  					    break;
+applications\modbus611.c(236): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus611.c(250): warning:  #111-D: statement is unreachable
+  						  break;				
+applications\modbus611.c(278): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus611.c(292): warning:  #111-D: statement is unreachable
+  					    break;
+applications\modbus611.c(339): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus611.c(353): warning:  #111-D: statement is unreachable
+  						  break;				
+applications\modbus611.c(381): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus611.c(395): warning:  #111-D: statement is unreachable
+  					    break;
+applications\modbus611.c(443): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus611.c(457): warning:  #111-D: statement is unreachable
+  						  break;				
+applications\modbus611.c(485): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus611.c(499): warning:  #111-D: statement is unreachable
+  					    break;
+applications\modbus611.c(547): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus611.c(561): warning:  #111-D: statement is unreachable
+  						  break;				
+applications\modbus611.c(589): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus611.c(603): warning:  #111-D: statement is unreachable
+  					    break;
+applications\modbus611.c(650): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus611.c(664): warning:  #111-D: statement is unreachable
+  						  break;				
+applications\modbus611.c(692): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus611.c(706): warning:  #111-D: statement is unreachable
+  					    break;
+applications\modbus611.c(754): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus611.c(768): warning:  #111-D: statement is unreachable
+  						  break;				
+applications\modbus611.c(796): warning:  #111-D: statement is unreachable
+  						 break;
+applications\modbus611.c(810): warning:  #111-D: statement is unreachable
+  					    break;
+applications\modbus611.c(823): warning:  #940-D: missing return statement at end of non-void function "trans_yk_cmd_modbus_1" 
+  }
+applications\modbus611.c(82): warning:  #177-D: variable "deviceaddr"  was declared but never referenced
+  	  uint8_t deviceaddr;
+applications\modbus611.c(83): warning:  #177-D: variable "num"  was declared but never referenced
+  	  uint16_t num;
+applications\modbus611.c(1718): warning:  #1-D: last line of file ends without a newline
+  //end
+applications\modbus611.c: 32 warnings, 0 errors
+compiling clock.c...
+compiling modbushfna2s.c...
+applications\modbushfna2s.c(129): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(143): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(171): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(185): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(233): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(247): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(275): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(289): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(336): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(350): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(378): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(392): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(440): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(454): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(482): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(496): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(544): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(558): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(586): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(600): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(647): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(661): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(689): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(703): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(751): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(765): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(793): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(807): warning:  #111-D: statement is unreachable
+  			break;
+applications\modbushfna2s.c(820): warning:  #940-D: missing return statement at end of non-void function "trans_yk_cmd_modbus_2" 
+  }
+applications\modbushfna2s.c(79): warning:  #177-D: variable "deviceaddr"  was declared but never referenced
+  	uint8_t deviceaddr;
+applications\modbushfna2s.c(80): warning:  #177-D: variable "num"  was declared but never referenced
+  	uint16_t num;
+applications\modbushfna2s.c(1715): warning:  #1-D: last line of file ends without a newline
+  //end
+applications\modbushfna2s.c: 32 warnings, 0 errors
+compiling device.c...
+compiling idle.c...
+compiling ipc.c...
+compiling irq.c...
+compiling mem.c...
+compiling mempool.c...
+compiling object.c...
+compiling scheduler.c...
+compiling thread.c...
+compiling timer.c...
+compiling cmd.c...
+compiling finsh_compiler.c...
+compiling finsh_error.c...
+compiling finsh_heap.c...
+compiling finsh_init.c...
+compiling finsh_node.c...
+compiling finsh_ops.c...
+compiling finsh_parser.c...
+compiling finsh_token.c...
+compiling finsh_var.c...
+compiling finsh_vm.c...
+compiling symbol.c...
+compiling serial.c...
+drivers\serial.c(437): warning:  #9-D: nested comment is not allowed
+  #endif ///< #ifdef RT_USING_UART4 ///*/
+drivers\serial.c(380): warning:  #177-D: variable "APB2_clock"  was declared but never referenced
+      uint32_t APB2_clock = (SystemCoreClock >> (APBC2_PSR_Val & 0x03));
+drivers\serial.c: 2 warnings, 0 errors
+compiling ports_init.c...
+compiling board.c...
+compiling fm3_emac.c...
+compiling fm3_ext_int_type2.c...
+compiling dmac_fm3.c...
+compiling sram_value.c...
+drivers\sram_value.c(71): warning:  #223-D: function "memset" declared implicitly
+  			memset(yc_data_buf0[i],0,sizeof(yc_data_buf0[i]));
+drivers\sram_value.c(117): warning:  #1-D: last line of file ends without a newline
+  /*end*/
+drivers\sram_value.c: 2 warnings, 0 errors
+compiling kservice.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+rt-thread\src\kservice.c: 1 warning, 0 errors
+compiling eth_driver.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+drivers\eth_driver.c(409): warning:  #223-D: function "EMAC_MACTransmissionCmd" declared implicitly
+  				EMAC_MACTransmissionCmd(FM3_ETHERNET_MAC, DISABLE);
+drivers\eth_driver.c(411): warning:  #223-D: function "EMAC_FlushTransmitFIFO" declared implicitly
+  				EMAC_FlushTransmitFIFO(FM3_ETHERNET_MAC);
+drivers\eth_driver.c(413): warning:  #223-D: function "EMAC_DMATransmissionCmd" declared implicitly
+  				EMAC_DMATransmissionCmd(FM3_ETHERNET_MAC, DISABLE);
+drivers\eth_driver.c: 4 warnings, 0 errors
+compiling shell.c...
+components\lwip\src\arch\include\arch/cc.h(92): warning:  #47-D: incompatible redefinition of macro "LWIP_PLATFORM_DIAG"  (declared at line 66 of "components\lwip\src\lwipopts.h")
+  #define LWIP_PLATFORM_DIAG(x)	do {rt_kprintf x;} while(0)
+rt-thread\components\finsh\shell.c: 1 warning, 0 errors
+linking...
+Program Size: Code=205898 RO-data=6574 RW-data=302332 ZI-data=70156  
+FromELF: creating hex file...
+".\build\WGC_CMM.axf" - 0 Error(s), 190 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.4.0.pack
+                ARM.CMSIS.5.4.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.2
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.FM3HighPerformance_DFP.1.1.0.pack
+                Keil.FM3HighPerformance_DFP.1.1.0
+                Spansion FM3 High Performance Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_rtthread
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include
+  C:\Keil_v5\ARM\PACK\Keil\FM3HighPerformance_DFP\1.1.0\Device\Include\MB9B610T
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.2
+Build Time Elapsed:  00:00:40
+</pre>
+</body>
+</html>

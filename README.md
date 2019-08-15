@@ -1,0 +1,2 @@
+# WCG_CMM_NEWBOARD
+通讯管理机程序1.00

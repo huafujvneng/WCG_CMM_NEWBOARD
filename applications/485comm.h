@@ -32,7 +32,8 @@
 #define PULSENUM          20           //脉冲路数
 
 #define MEASURE_DATA_TIME 2000
-
+#define wsssssss1   2000
+#define wsssssss2   2000
 
 /*MessageFlagA 报文标志*/
 #define Reset_FCB         0x00000001
